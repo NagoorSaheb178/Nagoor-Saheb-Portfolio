@@ -1,0 +1,17 @@
+
+> retro-hud-projects@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (1221 modules)
+ GET / 200 in 3901ms
+ ✓ Compiled in 1220ms (610 modules)
+ ✓ Compiled in 625ms (610 modules)
+ ✓ Compiled in 216ms (610 modules)
+ ✓ Compiled in 512ms (610 modules)
+ ✓ Compiled in 2.3s (610 modules)
