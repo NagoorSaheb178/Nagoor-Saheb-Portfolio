@@ -252,7 +252,7 @@ export default function Home() {
             <h3 className="font-headline-md text-headline-md uppercase whitespace-nowrap">Skills :</h3>
             <div className="h-[2px] w-full bg-outline-variant"></div>
           </div>
-          <div className="flex flex-wrap gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6">
             <div className="bg-white border-2 border-outline-variant p-4 flex flex-col items-center gap-3 min-w-[100px] hard-shadow-sm hover:-translate-y-1 transition-transform">
               <div className="w-12 h-12 bg-[#3776AB] rounded-lg flex items-center justify-center text-white font-bold text-xl">Py</div>
               <span className="font-label-bold text-[10px] uppercase">Python</span>
