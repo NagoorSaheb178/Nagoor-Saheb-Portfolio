@@ -111,7 +111,7 @@ export default function Home() {
         <section className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-start mb-24" id="home">
           <div className="md:col-span-7 pt-12">
             <div className="relative inline-block mb-6">
-              <h1 className="font-display-lg text-display-lg uppercase leading-none">Portofolio</h1>
+              <h1 className="font-display-lg text-display-lg uppercase leading-none"></h1>
               <div className="h-4 w-full bg-primary-container absolute bottom-4 -z-10 -rotate-1"></div>
             </div>
             <p className="font-body-lg text-body-lg max-w-xl text-on-surface-variant leading-relaxed">
