@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Shaik Nagoor Saheb | Full Stack & AI Developer",
+  title: "SHAIK NAGOOR SAHEB | Portfolio",
   description: "Building intelligent systems and scalable web experiences.",
 };
 
@@ -15,8 +12,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} bg-[#0a0a0a] text-slate-200 antialiased selection:bg-blue-500/30 selection:text-blue-200`}>
+    <html lang="en" className="scroll-smooth">
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@400;500&family=Space+Grotesk:wght@500;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Anton:wght@100..900&family=Plus+Jakarta+Sans:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap" rel="stylesheet"/>
+      </head>
+      <body className={`bg-background text-on-background font-body-md text-body-md dot-pattern min-h-screen selection:bg-primary-container`}>
         {children}
       </body>
     </html>
